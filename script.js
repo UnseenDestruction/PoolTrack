@@ -52,8 +52,8 @@ async function fetchRaydiumAccounts(txId, connection) {
     const tokenBAccount = accounts[tokenBIndex];
 
     const displayData = [
-        { "Token": "A", "Account Public Key": tokenAAccount.toBase58() },
-        { "Token": "B", "Account Public Key": tokenBAccount.toBase58() }
+        { "Token": "Name Of The Token", "Account Public Key": tokenAAccount.toBase58() },
+        { "Token": "SOL ADRESS", "Account Public Key": tokenBAccount.toBase58() }
     ];
     console.log("New LP Found");
     console.log(generateExplorerUrl(txId));
